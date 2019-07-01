@@ -5,3 +5,5 @@ JQuery used for the validation.
 Bootstrap used for the styling.
 
 **You can validate the Sri Lankan old and new NIC with the birthday and gender using this.**
+
+Online Demo - https://warrickrandi.github.io/sl-nic-validation/
