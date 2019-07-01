@@ -23,7 +23,7 @@ $(document).ready(function() {
 
                 //day count
                 var dayCount = getDayCount(byear, bmonth, bday, gender)
-                console.log(byear + ' ' + bmonth + ' ' + bday + ' ' + nic_year + ' ' + dayList + ' ' + dayCount)
+                    // console.log(byear + ' ' + bmonth + ' ' + bday + ' ' + nic_year + ' ' + dayList + ' ' + dayCount)
 
 
                 //Validate the year
@@ -165,12 +165,7 @@ $(document).ready(function() {
         if (gender == 'F') {
             dayCount += 500
         }
-
-        if (year % 4 == 0) {
-            return dayCount + 1
-        } else {
-            return dayCount
-        }
+        return dayCount + 1
 
     }
 
