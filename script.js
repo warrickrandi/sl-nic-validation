@@ -165,7 +165,11 @@ $(document).ready(function() {
         if (gender == 'F') {
             dayCount += 500
         }
-        return dayCount + 1
+        if (month > 2) {
+            return dayCount + 1
+        } else {
+            return dayCount
+        }
 
     }
 
